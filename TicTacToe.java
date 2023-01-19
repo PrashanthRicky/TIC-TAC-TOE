@@ -18,9 +18,8 @@ public class TicTacToe{
          [2][0] , [2][2] , [2][4]
         Player = 1
         Computer = 2
- */
-    
- 
+   */
+
         public static void main(String [] args){
 
             char [][] gameBoard = {{'_','|','_','|','_'},{'_', '|', '_','|','_'},{' ','|',' ','|',' '}};
@@ -28,7 +27,7 @@ public class TicTacToe{
             boolean gameOver = false;
             boolean playAgain = true;
         
-          while(playAgain) {
+            while(playAgain) {
 
               while (!gameOver) {
                   System.out.println("Welcome to Tic Tac Toe!!");
@@ -44,7 +43,6 @@ public class TicTacToe{
                       break;
                   }
                 }
-
 
               System.out.println("Player Score: " +playerScore);
               System.out.println("Computer Score: "+ computerScore);
@@ -73,7 +71,6 @@ public class TicTacToe{
         
             }
         }
-
 
         //Printing the board
         private static void printBoard(char[][] gameBoard) {
@@ -228,7 +225,7 @@ public class TicTacToe{
         }
 
 
-        //for computer move
+        //for computer moves on the board
         public static void computerMove(char [][] gameBoard){
 
             Random rand = new Random();
@@ -247,7 +244,7 @@ public class TicTacToe{
 
 
 
-        //for winning status
+        //for winning status 
         public static boolean isGameOver(char [][] gameboard){
 
                //Horizontal Win
@@ -353,7 +350,6 @@ public class TicTacToe{
             return false;
         }
         
-
         //resetting the board1
         public static void resetBoard(char [][] gameBoard){
             gameBoard[0][0] = '_';
