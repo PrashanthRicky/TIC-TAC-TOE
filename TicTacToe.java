@@ -10,6 +10,8 @@ public static void main(String[] args) {
     
     updateBoard(9,2,board);
 }
+
+
 private static void updateBoard(int position,int player ,char[][] board){
           
     char character;
@@ -60,9 +62,7 @@ private static void updateBoard(int position,int player ,char[][] board){
                 break;
             default:
                 break;
-
         }
-
 }
 
 private static void printBoard(char[][] board) {
