@@ -1,2 +1,2 @@
 # TIC-TAC-TOE
-Everybody remembers this paper-and-pencil game from childhood: Tic-Tac-Toe, also known as Noughts and crosses or Xs and Os. A single mistake usually costs you the game, but thankfully it is simple enough that most players discover the best strategy quickly. 
+Everyone recalls playing the childhood game of tic tac toe, commonly known as noughts and crosses or Xs and Os, with paper and pencil. The game is typically won or lost by a single error, but fortunately it is straightforward enough for most players to quickly figure out the optimal approach.
